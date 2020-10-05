@@ -157,6 +157,86 @@ $$
 
 * [2020 Oct 5 Galvanize DSI Course Outline](https://github.com/GalvanizeDataScience/course-outline/tree/20-10-DS-RFT_RFT5)
 
+<hr>
+
+## Morning
+
+### Unix
+* Organization / Navigation
+    * `/` root directory
+    * `~` home directory
+    * `pwd`
+    * `$PWD`: variable of working directory
+    * `echo` $HOME: "Print home directory"
+    * `cd`: "Change directory"
+        * `cd` -> go home
+        * `cd ..`
+    * `mkdir`
+    * `rm -rf` "directory"
+
+    * Create `~/Galvanize` directory
+
+    * `ls`
+    * `ll` (alias for `ls -alF`) vertical list, including hidden, with indicator
+
+    * use `man` to see help menu
+        * e.g.: `man ls`
+    * single-letter options are preceded with a single dash
+    * single-letter options can be grouped together (e.g.: `ls -alF` vs `ls -a -l -F`)
+
+    * `ls -l` shows ownership and permission
+        * `rwx` = read, write, execute
+    * `history`
+        * `history > history.txt` to dump recent shell commands to text file
+    * `echo goodbye >> hello.txt`
+        * add "goodbye" to end of existing file (or create new file if no file)
+    * `[command] &` run command in background
+    * `[command1] && [command2]` run command2 after command1 finish successfully
+    * `[command1] | [command2]` use output of command1 as input to command2
+    * `[command1] || [command2]` run command2 if command1 does not finish successfully
+    * `cat [filename]` print contents of file to screen
+    * `head [filename]` print first 10 lines of file
+    * `tail [filename]` print last 10 lines of file
+    * `more [filename]` print file one screen at a time
+    * `less [filename]` same as more, but more options    
+    * `env` to see list of environment variables
+    * `export` used to set variable
+        * `export MY_VALUE=12345`
+    * `echo $[variable]` to recall variables
+    * `alias` for command list
+        * `alias jup='jupyter-notebook . & gnome-terminal --tab'`
+    * `code ~/.bashrc`
+    * `history | grep [command]` to review recent commands
+    * `![history number]` to repeat a command by number
+
+<hr>
+
+## Afternoon
+
+## git
+
+* `git init` 
+    * initializes a repo
+* `git clone`
+    * makes a copy (downloads) of a git repo
+    * our primary way of delivering code to you
+    * you will do this ~twice a day
+* `git add`
+    - adds files and folders to a "staging" area so their histories are tracked
+    - you'll do this several times a day
+* `git commit`
+    - incorporates changes from staging to a checkpoint
+    - partnered with `git add`
+    - do several times a day
+* `git push`
+    - moves changes from local to remote repo
+* `git status`
+
+
+
+
+
+
 
 
 
