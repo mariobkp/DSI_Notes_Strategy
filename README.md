@@ -146,6 +146,25 @@ $$
 ![snappy example](images/snappy_example.png)
 
 
+<hr>
+
+
+# 2020/10/05
+
+## Intro
+
+* rdsi.communication@galvanize.com
+
+* [2020 Oct 5 Galvanize DSI Course Outline](https://github.com/GalvanizeDataScience/course-outline/tree/20-10-DS-RFT_RFT5)
+
+
+
+
+
+
+
+
+
 
 
 
